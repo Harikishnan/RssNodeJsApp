@@ -1,30 +1,18 @@
 {
-    "name": "RSS TVNDR APP",
-    "short_name": "RSS TVNDR",
-    "display":"standalone",
-    "start_url": "/index.html",
-    "orientation":"portrait",
-    "background_color": "#ccc",
-    "theme_color":"#f24216",
-    "icons": [
-        {
-            "src": "./images/96.png",
-            "sizes": "96x96",
-            "type": "/image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "./images/144.png",
-            "sizes": "144x144",
-            "type": "/image/png",
-            "purpose": "any"
-        },
-        {
-            "src": "./images/178.png",
-            "sizes": "178x178",
-            "type": "/image/png",
-            "purpose": "any"
-        }
-    ]
+    "name": "Rss Tvndr App",
+    "short_name": "Rss Tvndr",
+    "icons": [{
+        "src": "/images/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "/images/178.png",
+        "sizes": "178x178",
+        "type": "image/png"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation" : "portrait",
+    "background_color": "#FFFFFF",
+    "theme_color": "#ff5500"
 }
-
