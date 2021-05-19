@@ -2,7 +2,7 @@
     "name": "RSS TVNDR APP",
     "short_name": "RSS TVNDR",
     "display":"standalone",
-    "start_url": "/",
+    "start_url": "index.html",
     "orientation":"portrait",
     "background_color": "#ccc",
     "theme_color":"#f24216"
