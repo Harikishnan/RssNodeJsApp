@@ -2,15 +2,15 @@
     "name": "Rss Tvndr App",
     "short_name": "Rss Tvndr",
     "icons": [{
-        "src": "/images/144.png",
+        "src": "images/144.png",
         "sizes": "144x144",
         "type": "image/png"
     }, {
-        "src": "/images/178.png",
+        "src": "images/178.png",
         "sizes": "178x178",
         "type": "image/png"
     }, {
-        "src": "/images/omm.png",
+        "src": "images/omm.png",
         "sizes": "178x178",
         "type": "image/png"
         
