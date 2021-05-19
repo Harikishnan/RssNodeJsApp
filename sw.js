@@ -1,9 +1,4 @@
 
-
-
-
-
-
 var CACHE_NAME = 'static-cache';
 var urlsToCache = [
   '.',
