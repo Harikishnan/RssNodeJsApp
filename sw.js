@@ -1,11 +1,6 @@
 
 const toCache = [
-    '/',
-    '/stylesheets/style.css',
-    '/javascripts/script.js',
-    'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css',
-    '/javascripts/status.js',
-    '/404.html'
+    '/'
 ];
 
 
@@ -38,15 +33,15 @@ self.addEventListener('install', function(event) {
   self.addEventListener('activate', function(event) {
     console.log("Activated");  
     event.waitUntil(
-        caches.keys()
-          .then((keyList) => {
-            return Promise.all(keyList.map((key) => {
-              if (key !== 'cache-name') {
-                console.log('[ServiceWorker] Removing old cache', key)
-                return caches.delete(key)
-              }
-            }))
-          })
-          .then(() => self.clients.claim())
-      )
+      caches.keys()
+        .then((keyList) => {
+          return Promise.all(keyList.map((key) => {
+            if (key !== 'cache-name') {
+              console.log('[ServiceWorker] Removing old cache', key)
+              return caches.delete(key)
+            }
+          }))
+        })
+        .then(() => self.clients.claim())
+    )
 })
