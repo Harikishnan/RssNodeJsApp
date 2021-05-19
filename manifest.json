@@ -10,17 +10,20 @@
         {
             "src": "./images/96.png",
             "sizes": "96x96",
-            "type": "/image/png"
+            "type": "/image/png",
+            "purpose": "any"
         },
         {
             "src": "./images/144.png",
             "sizes": "144x144",
-            "type": "/image/png"
+            "type": "/image/png",
+            "purpose": "any"
         },
         {
             "src": "./images/178.png",
             "sizes": "178x178",
-            "type": "/image/png"
+            "type": "/image/png",
+            "purpose": "any"
         }
     ]
 }
