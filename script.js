@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-      .register('sw.js')
+      .register('/RssNodeJsApp/sw.js',{scope: '/RssNodeJsApp/')
       .then(() => {
           console.info('Rss Tvndr App Is Registered');
       }, err => console.error("Rss Tvndr App registration failed: ", err));
